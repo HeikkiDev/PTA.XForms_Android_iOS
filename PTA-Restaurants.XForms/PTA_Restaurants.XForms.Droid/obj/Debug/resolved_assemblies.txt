@@ -17,6 +17,7 @@ C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Resta
 C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms.Droid\obj\Debug\android\assets\mscorlib.dll
 C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms.Droid\obj\Debug\android\assets\System.Core.dll
 C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms.Droid\obj\Debug\android\assets\System.dll
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms.Droid\obj\Debug\android\assets\System.Net.Http.dll
 C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms.Droid\obj\Debug\android\assets\System.Xml.dll
 C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms.Droid\obj\Debug\android\assets\System.Xml.Linq.dll
 C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms.Droid\obj\Debug\android\assets\PTA_Restaurants.XForms.dll
@@ -37,7 +38,6 @@ C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Resta
 C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms.Droid\obj\Debug\android\assets\System.Runtime.Extensions.dll
 C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms.Droid\obj\Debug\android\assets\System.Linq.dll
 C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms.Droid\obj\Debug\android\assets\System.Reflection.Extensions.dll
-C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms.Droid\obj\Debug\android\assets\System.Net.Http.dll
 C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms.Droid\obj\Debug\android\assets\System.Runtime.Serialization.dll
 C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms.Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll
 C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms.Droid\obj\Debug\android\assets\System.Text.RegularExpressions.dll

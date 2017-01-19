@@ -71,3 +71,7 @@ C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Resta
 C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\PTA_Restaurants.XForms.dll.mdb
 C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\obj\Debug\PTA_Restaurants.XForms.dll.mdb
 C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\PTA_Restaurants.XForms.dll.mdb
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\obj\Debug\PTA_Restaurants.XForms.dll.mdb
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\PTA_Restaurants.XForms.dll.mdb
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\obj\Debug\PTA_Restaurants.XForms.dll.mdb
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\PTA_Restaurants.XForms.dll.mdb

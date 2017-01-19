@@ -68,8 +68,6 @@ C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Resta
 C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.dll
 C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.iOS.dll
 C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms.iOS\bin\iPhone\Debug\Xamarin.Forms.Xaml.dll
-C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms.iOS\bin\iPhone\Debug\System.Net.Http.dll
-C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms.iOS\bin\iPhone\Debug\System.Net.Primitives.dll
 C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms.iOS\bin\iPhone\Debug\PTA_Restaurants.XForms.pdb
 C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.pdb
 C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.xml
@@ -79,8 +77,6 @@ C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Resta
 C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms.iOS\bin\iPhone\Debug\Xamarin.Forms.Xaml.pdb
 C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms.iOS\bin\iPhone\Debug\Xamarin.Forms.Xaml.xml
 C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms.iOS\bin\iPhone\Debug\Xamarin.Forms.Xaml.dll.mdb
-C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms.iOS\bin\iPhone\Debug\System.Net.Http.xml
-C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms.iOS\bin\iPhone\Debug\System.Net.Primitives.xml
 C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms.iOS\bin\iPhone\Debug\ar\Xamarin.Forms.Platform.iOS.resources.dll
 C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms.iOS\bin\iPhone\Debug\ca\Xamarin.Forms.Platform.iOS.resources.dll
 C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms.iOS\bin\iPhone\Debug\cs\Xamarin.Forms.Platform.iOS.resources.dll
@@ -122,5 +118,6 @@ C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Resta
 C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms.iOS\obj\iPhone\Debug\PTA_Restaurants.XForms.iOS.csprojResolveAssemblyReference.cache
 C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms.iOS\obj\iPhone\Debug\PTA_Restaurants.XForms.iOS.exe
 C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms.iOS\obj\iPhone\Debug\PTA_Restaurants.XForms.iOS.pdb
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms.iOS\bin\iPhone\Debug\PTA_Restaurants.XForms.dll.mdb
 C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms.iOS\obj\iPhone\Debug\PTA_Restaurants.XForms.iOS.exe.mdb
 C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms.iOS\bin\iPhone\Debug\PTA_Restaurants.XForms.iOS.exe.mdb
