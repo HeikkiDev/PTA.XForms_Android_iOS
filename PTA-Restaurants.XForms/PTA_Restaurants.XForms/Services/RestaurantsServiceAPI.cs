@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using PTA_Restaurants.XForms.Models;
-using System.Net.Http;
+//using System.Net.Http;
 using System.Xml.Serialization;
 using System.IO;
 
@@ -24,7 +24,7 @@ namespace PTA_Restaurants.XForms.Services
         /// <returns></returns>
         public async Task<RestaurantsCollection> GetRestaurants(DateTime today)
         {
-            using (var client = new HttpClient())
+            using (var client = new System.Net.Http.HttpClient())
             {
                 var url = string.Format(RestaurantsListURLBase, today.Year, today.Month, today.Day);
                 var xml = await client.GetStringAsync(url);
@@ -60,7 +60,7 @@ namespace PTA_Restaurants.XForms.Services
         /// <returns></returns>
         public async Task<RestaurantDetailCollection> GetRestaurantDetail(Restaurant restaurant, DateTime today)
         {
-            using (var client = new HttpClient())
+            using (var client = new System.Net.Http.HttpClient())
             {
                 var url = string.Format(RestaurantDetailURLBase, restaurant.IdRestaurant, today.Year, today.Month, today.Day);
                 var xml = await client.GetStringAsync(url);
@@ -96,7 +96,7 @@ namespace PTA_Restaurants.XForms.Services
         /// <returns></returns>
         public async Task<RestaurantDetailMenuCollection> GetRestaurantDetailMenu(RestaurantDetail restaurantDetail)
         {
-            using (var client = new HttpClient())
+            using (var client = new System.Net.Http.HttpClient())
             {
                 var url = string.Format(RestaurantDetailMenuURLBase, restaurantDetail.IdMenuCategory);
                 var xml = await client.GetStringAsync(url);
