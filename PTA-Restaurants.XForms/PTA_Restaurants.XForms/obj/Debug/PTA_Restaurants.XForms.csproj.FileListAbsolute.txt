@@ -1,0 +1,73 @@
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms-master\PTA-Restaurants.XForms-master\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\PTA_Restaurants.XForms.dll
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms-master\PTA-Restaurants.XForms-master\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\PTA_Restaurants.XForms.pdb
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms-master\PTA-Restaurants.XForms-master\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\System.Net.Http.dll
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms-master\PTA-Restaurants.XForms-master\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms-master\PTA-Restaurants.XForms-master\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms-master\PTA-Restaurants.XForms-master\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms-master\PTA-Restaurants.XForms-master\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\System.Net.Primitives.dll
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms-master\PTA-Restaurants.XForms-master\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\System.Net.Http.xml
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms-master\PTA-Restaurants.XForms-master\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms-master\PTA-Restaurants.XForms-master\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms-master\PTA-Restaurants.XForms-master\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms-master\PTA-Restaurants.XForms-master\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms-master\PTA-Restaurants.XForms-master\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms-master\PTA-Restaurants.XForms-master\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\System.Net.Primitives.xml
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms-master\PTA-Restaurants.XForms-master\PTA-Restaurants.XForms\PTA_Restaurants.XForms\obj\Debug\PTA_Restaurants.XForms.csprojResolveAssemblyReference.cache
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms-master\PTA-Restaurants.XForms-master\PTA-Restaurants.XForms\PTA_Restaurants.XForms\obj\Debug\PTA_Restaurants.XForms.App.xaml.g.cs
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms-master\PTA-Restaurants.XForms-master\PTA-Restaurants.XForms\PTA_Restaurants.XForms\obj\Debug\PTA_Restaurants.XForms.Views.RestaurantsPage.xaml.g.cs
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms-master\PTA-Restaurants.XForms-master\PTA-Restaurants.XForms\PTA_Restaurants.XForms\obj\Debug\PTA_Restaurants.XForms.Views.RestaurantDetailPage.xaml.g.cs
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms-master\PTA-Restaurants.XForms-master\PTA-Restaurants.XForms\PTA_Restaurants.XForms\obj\Debug\PTA_Restaurants.XForms.Views.RestaurantDetailMenuPage.xaml.g.cs
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms-master\PTA-Restaurants.XForms-master\PTA-Restaurants.XForms\PTA_Restaurants.XForms\obj\Debug\PTA_Restaurants.XForms.dll
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms-master\PTA-Restaurants.XForms-master\PTA-Restaurants.XForms\PTA_Restaurants.XForms\obj\Debug\PTA_Restaurants.XForms.pdb
+C:\Users\Enrique\documents\visual studio 2015\Projects\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\PTA_Restaurants.XForms.dll
+C:\Users\Enrique\documents\visual studio 2015\Projects\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\PTA_Restaurants.XForms.pdb
+C:\Users\Enrique\documents\visual studio 2015\Projects\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\System.Net.Http.dll
+C:\Users\Enrique\documents\visual studio 2015\Projects\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Enrique\documents\visual studio 2015\Projects\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Enrique\documents\visual studio 2015\Projects\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Enrique\documents\visual studio 2015\Projects\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\System.Net.Primitives.dll
+C:\Users\Enrique\documents\visual studio 2015\Projects\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\System.Net.Http.xml
+C:\Users\Enrique\documents\visual studio 2015\Projects\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Enrique\documents\visual studio 2015\Projects\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Enrique\documents\visual studio 2015\Projects\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\Enrique\documents\visual studio 2015\Projects\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Enrique\documents\visual studio 2015\Projects\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Enrique\documents\visual studio 2015\Projects\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\System.Net.Primitives.xml
+C:\Users\Enrique\documents\visual studio 2015\Projects\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\obj\Debug\PTA_Restaurants.XForms.App.xaml.g.cs
+C:\Users\Enrique\documents\visual studio 2015\Projects\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\obj\Debug\PTA_Restaurants.XForms.Views.RestaurantsPage.xaml.g.cs
+C:\Users\Enrique\documents\visual studio 2015\Projects\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\obj\Debug\PTA_Restaurants.XForms.Views.RestaurantDetailPage.xaml.g.cs
+C:\Users\Enrique\documents\visual studio 2015\Projects\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\obj\Debug\PTA_Restaurants.XForms.Views.RestaurantDetailMenuPage.xaml.g.cs
+C:\Users\Enrique\documents\visual studio 2015\Projects\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\obj\Debug\PTA_Restaurants.XForms.dll
+C:\Users\Enrique\documents\visual studio 2015\Projects\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\obj\Debug\PTA_Restaurants.XForms.pdb
+C:\Users\Enrique\documents\visual studio 2015\Projects\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\obj\Debug\PTA_Restaurants.XForms.Views.RestaurantDetailOffersPage.xaml.g.cs
+C:\Users\Enrique\documents\visual studio 2015\Projects\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\obj\Debug\PTA_Restaurants.XForms.Views.RestaurantDetailDailyMenuPage.xaml.g.cs
+C:\Users\Enrique\documents\visual studio 2015\Projects\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\obj\Debug\PTA_Restaurants.XForms.csprojResolveAssemblyReference.cache
+C:\Users\Enrique\documents\visual studio 2015\Projects\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\obj\Debug\PTA_Restaurants.XForms.dll.mdb
+C:\Users\Enrique\documents\visual studio 2015\Projects\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\PTA_Restaurants.XForms.dll.mdb
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\PTA_Restaurants.XForms.dll
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\PTA_Restaurants.XForms.pdb
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\System.Net.Http.dll
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\System.Net.Primitives.dll
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\System.Net.Http.xml
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\System.Net.Primitives.xml
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\obj\Debug\PTA_Restaurants.XForms.csprojResolveAssemblyReference.cache
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\obj\Debug\PTA_Restaurants.XForms.App.xaml.g.cs
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\obj\Debug\PTA_Restaurants.XForms.Views.RestaurantsPage.xaml.g.cs
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\obj\Debug\PTA_Restaurants.XForms.Views.RestaurantDetailPage.xaml.g.cs
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\obj\Debug\PTA_Restaurants.XForms.Views.RestaurantDetailMenuPage.xaml.g.cs
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\obj\Debug\PTA_Restaurants.XForms.Views.RestaurantDetailOffersPage.xaml.g.cs
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\obj\Debug\PTA_Restaurants.XForms.Views.RestaurantDetailDailyMenuPage.xaml.g.cs
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\obj\Debug\PTA_Restaurants.XForms.dll
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\obj\Debug\PTA_Restaurants.XForms.pdb
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\obj\Debug\PTA_Restaurants.XForms.dll.mdb
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\PTA_Restaurants.XForms.dll.mdb
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\obj\Debug\PTA_Restaurants.XForms.dll.mdb
+C:\Users\Enrique\Desktop\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\bin\Debug\PTA_Restaurants.XForms.dll.mdb

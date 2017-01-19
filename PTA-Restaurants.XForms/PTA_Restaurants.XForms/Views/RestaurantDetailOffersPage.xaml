@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PTA_Restaurants.XForms.Views.RestaurantDetailOffersPage">
+
+  <StackLayout Padding="0,10,0,0">
+
+    <!--Header con los datos del Restaurante-->
+    <StackLayout Orientation="Horizontal" Padding="10,0,0,0">
+      <Image HeightRequest="64"
+             WidthRequest="64"
+             VerticalOptions="Center"
+             Source="{Binding Restaurant.LogoURL}"/>
+      <StackLayout Padding="10" Spacing="5">
+        <Label Text="{Binding Restaurant.Name}"
+               TextColor="#3498db"
+               FontSize="22"
+               Style="{DynamicResource ListItemTextStyle}"/>
+        <Label Text="{Binding Restaurant.Address}"
+               Style="{DynamicResource ListItemDetailTextStyle}"/>
+        <Label Text="{Binding Restaurant.Phone}"
+               Style="{DynamicResource ListItemDetailTextStyle}"/>
+      </StackLayout>
+    </StackLayout>
+
+    <ContentView Padding="20" BackgroundColor="#3498db">
+      <Label Text="{Binding RestaurantDetail.Name}"
+             TextColor="White"
+             FontSize="28"
+             Style="{DynamicResource ListItemTextStyle}"/>
+    </ContentView>
+
+    <ActivityIndicator IsVisible="{Binding IsBusy}" IsRunning="{Binding IsBusy}"/>
+
+    <!--Aquí irán los diferentes platos-->
+    <ListView ItemsSource="{Binding OfferList}"
+              SeparatorVisibility="Default"
+              SeparatorColor="#3498db"
+              HasUnevenRows="True"
+              CachingStrategy="RecycleElement"
+              ItemSelected="OnSelection"
+              RowHeight="110"
+              x:Name="ListViewRestaurantDetail">
+      <ListView.SeparatorColor>
+        <OnPlatform x:TypeArguments="Color" iOS="Transparent"/>
+      </ListView.SeparatorColor>
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <ViewCell>
+
+            <StackLayout Orientation="Vertical" VerticalOptions="Center" Padding="0,0,15,0">
+              <Label Text="{Binding Name}"
+                       TextColor="#3498db"
+                       FontSize="22"
+                       Style="{DynamicResource ListItemTextStyle}"/>
+              <Label Text="{Binding Description}"
+                       TextColor="#ffffff"
+                       FontSize="16"
+                       Style="{DynamicResource ListItemTextStyle}"/>
+            </StackLayout>
+
+          </ViewCell>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+
+  </StackLayout>
+  
+</ContentPage>

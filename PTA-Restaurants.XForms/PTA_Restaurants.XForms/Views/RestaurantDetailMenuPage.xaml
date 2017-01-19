@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PTA_Restaurants.XForms.Views.RestaurantDetailMenuPage">
+
+  <StackLayout Padding="0,10,0,0">
+
+    <!--Header con los datos del Restaurante-->
+    <StackLayout Orientation="Horizontal" Padding="10,0,0,0">
+      <Image HeightRequest="64"
+             WidthRequest="64"
+             VerticalOptions="Center"
+             Source="{Binding Restaurant.LogoURL}"/>
+      <StackLayout Padding="10" Spacing="5">
+        <Label Text="{Binding Restaurant.Name}"
+               TextColor="#3498db"
+               FontSize="22"
+               Style="{DynamicResource ListItemTextStyle}"/>
+        <Label Text="{Binding Restaurant.Address}"
+               Style="{DynamicResource ListItemDetailTextStyle}"/>
+        <Label Text="{Binding Restaurant.Phone}"
+               Style="{DynamicResource ListItemDetailTextStyle}"/>
+      </StackLayout>
+    </StackLayout>
+
+    <ContentView Padding="20" BackgroundColor="#3498db">
+          <Label Text="{Binding RestaurantDetail.Name}"
+                 TextColor="White"
+                 FontSize="28"
+                 Style="{DynamicResource ListItemTextStyle}"/>
+    </ContentView>
+
+    <ActivityIndicator IsVisible="{Binding IsBusy}" IsRunning="{Binding IsBusy}"/>
+
+    <Label Text="El restaurante no ha publicado ningún contenido."
+           IsVisible="{Binding IsVisible}"
+           x:Name="LabelEmptyDetail"
+           FontSize="22"
+            Style="{DynamicResource ListItemDetailTextStyle}"/>
+
+    <StackLayout Orientation="Horizontal" HorizontalOptions="LayoutOptions.End"  Padding="0,0,15,0">
+      <Label Text="{Binding RestaurantDetail.Price1}" IsVisible="{Binding IsVisiblePrice1}" FontSize="10"/>
+      <Label Text="/" IsVisible="{Binding IsVisiblePrice2}" FontSize="10"/>
+      <Label Text="{Binding RestaurantDetail.Price2}" IsVisible="{Binding IsVisiblePrice2}" FontSize="10"/>
+      <Label Text="/" IsVisible="{Binding IsVisiblePrice3}" FontSize="10"/>
+      <Label Text="{Binding RestaurantDetail.Price3}" IsVisible="{Binding IsVisiblePrice3}" FontSize="10"/>
+      <Label Text="/" IsVisible="{Binding IsVisiblePrice4}" FontSize="10"/>
+      <Label Text="{Binding RestaurantDetail.Price4}" IsVisible="{Binding IsVisiblePrice4}" FontSize="10"/>
+    </StackLayout>
+
+    <!--Aquí irán los diferentes platos-->
+    <ListView ItemsSource="{Binding RestaurantDetailMenuCollection.RestaurantDetailMenuList}"
+              SeparatorVisibility="Default"
+              SeparatorColor="#3498db"
+              HasUnevenRows="True"
+              CachingStrategy="RecycleElement"
+              IsPullToRefreshEnabled="True"
+              RefreshCommand="{Binding GetRestaurantDetailCommand}"
+              IsRefreshing="{Binding IsBusy, Mode=OneWay}"
+              ItemSelected="OnSelection"
+              RowHeight="86"
+              x:Name="ListViewRestaurantDetail">
+      <ListView.SeparatorColor>
+        <OnPlatform x:TypeArguments="Color" iOS="Transparent"/>
+      </ListView.SeparatorColor>
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <ViewCell>
+            
+            <StackLayout Orientation="Horizontal" VerticalOptions="Center" Padding="0,0,15,0">
+              <Label Text="{Binding Name}"
+                       TextColor="#3498db"
+                       FontSize="22"
+                       Style="{DynamicResource ListItemTextStyle}"/>
+
+              <StackLayout Orientation="Horizontal" VerticalOptions="Center" HorizontalOptions="LayoutOptions.EndAndExpand">
+              <Label Text="{Binding Price1}"
+                     IsVisible="{Binding IsVisiblePrice1}"
+                     FontSize="10"
+                     Style="{DynamicResource ListItemDetailTextStyle}"/>
+              <Label Text="/" IsVisible="{Binding IsVisiblePrice2}" FontSize="10"/>
+              <Label Text="{Binding Price2}"
+                     IsVisible="{Binding IsVisiblePrice2}"
+                     FontSize="10"
+                     Style="{DynamicResource ListItemDetailTextStyle}"/>
+              <Label Text="/" IsVisible="{Binding IsVisiblePrice3}" FontSize="10"/>
+              <Label Text="{Binding Price3}"
+                     IsVisible="{Binding IsVisiblePrice3}"
+                     FontSize="10"
+                     Style="{DynamicResource ListItemDetailTextStyle}"/>
+              <Label Text="/" IsVisible="{Binding IsVisiblePrice4}" FontSize="10"/>
+              <Label Text="{Binding Price4}"
+                     IsVisible="{Binding IsVisiblePrice4}"
+                     FontSize="10"
+                     Style="{DynamicResource ListItemDetailTextStyle}"/>
+              </StackLayout>
+              
+            </StackLayout>
+            
+          </ViewCell>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+
+  </StackLayout>
+  
+</ContentPage>

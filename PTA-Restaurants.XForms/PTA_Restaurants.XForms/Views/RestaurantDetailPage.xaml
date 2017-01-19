@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PTA_Restaurants.XForms.Views.RestaurantDetailPage">
+
+  <StackLayout Padding="0,10,0,0">
+
+    <!--Header con los datos del Restaurante-->
+    <StackLayout Orientation="Horizontal" Padding="10,0,0,0">
+      <Image HeightRequest="64"
+             WidthRequest="64"
+             VerticalOptions="Center"
+             Source="{Binding Restaurant.LogoURL}"/>
+      <StackLayout Padding="10" Spacing="5">
+        <Label Text="{Binding Restaurant.Name}"
+               TextColor="#3498db"
+               FontSize="22"
+               Style="{DynamicResource ListItemTextStyle}"/>
+        <Label Text="{Binding Restaurant.Address}"
+               Style="{DynamicResource ListItemDetailTextStyle}"/>
+        <Label Text="{Binding Restaurant.Phone}"
+               Style="{DynamicResource ListItemDetailTextStyle}"/>
+      </StackLayout>
+    </StackLayout>
+
+    <ActivityIndicator IsVisible="{Binding IsBusy}" IsRunning="{Binding IsBusy}"/>
+
+    <Label Text="El restaurante no ha publicado ningún contenido."
+           IsVisible="{Binding IsVisible}"
+           x:Name="LabelEmptyDetail"
+           FontSize="22"
+            Style="{DynamicResource ListItemDetailTextStyle}"/>
+
+    <!--Aquí irán las categorías de los diferentes platos-->
+    <ListView ItemsSource="{Binding RestaurantDetailCollection.RestaurantDetailList}"
+              SeparatorVisibility="Default"
+              SeparatorColor="#3498db"
+              HasUnevenRows="True"
+              CachingStrategy="RecycleElement"
+              IsPullToRefreshEnabled="True"
+              RefreshCommand="{Binding GetRestaurantDetailCommand}"
+              IsRefreshing="{Binding IsBusy, Mode=OneWay}"
+              RowHeight="86"
+              ItemSelected="OnSelection"
+              x:Name="ListViewRestaurantDetail">
+      <ListView.SeparatorColor>
+        <OnPlatform x:TypeArguments="Color" iOS="Transparent"/>
+      </ListView.SeparatorColor>
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <ViewCell>
+            <Label Text="{Binding Name}"
+                       TextColor="#3498db"
+                       FontSize="22"
+                       Style="{DynamicResource ListItemTextStyle}"/>
+          </ViewCell>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+    
+  </StackLayout>
+  
+</ContentPage>

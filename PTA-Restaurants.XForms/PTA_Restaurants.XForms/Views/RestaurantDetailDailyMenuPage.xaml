@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PTA_Restaurants.XForms.Views.RestaurantDetailDailyMenuPage"
+             xmlns:local="clr-namespace:PTA_Restaurants.XForms;assembly=PTA_Restaurants.XForms">
+  
+  <!--== Celdas personalizadas para Header o Item de la lista, y DataTemplateSelector para asignar la ViewCell adecuada ==-->
+  <ContentPage.Resources>
+        <ResourceDictionary>
+            <DataTemplate x:Key="headerTemplate">
+                <ViewCell>
+                   <StackLayout Orientation="Vertical" VerticalOptions="Center" Padding="0,0,15,0">
+                      <Label Text="{Binding Name}"
+                               TextColor="#FF0000"
+                               FontSize="22"
+                               HorizontalTextAlignment="Center"
+                               Style="{DynamicResource ListItemTextStyle}"/>
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+            <DataTemplate x:Key="itemTemplate">
+                <ViewCell>
+                   <StackLayout Orientation="Vertical" VerticalOptions="Center" Padding="0,0,15,0">
+                      <Label Text="{Binding Name}"
+                               TextColor="#3498db"
+                               FontSize="20"
+                               Style="{DynamicResource ListItemTextStyle}"/>
+                      <Label Text="{Binding Description}"
+                               TextColor="#ffffff"
+                               FontSize="16"
+                               Style="{DynamicResource ListItemTextStyle}"/>
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+            <local:DailyMenuTemplateSelector x:Key="isHeaderDataTemplateSelector"
+                HeaderTemplate="{StaticResource headerTemplate}"
+                ItemTemplate="{StaticResource itemTemplate}" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+  <!--=================================================================================================================-->
+
+  <StackLayout Padding="0,10,0,0">
+
+    <!--Header con los datos del Restaurante-->
+    <StackLayout Orientation="Horizontal" Padding="10,0,0,0">
+      <Image HeightRequest="64"
+             WidthRequest="64"
+             VerticalOptions="Center"
+             Source="{Binding Restaurant.LogoURL}"/>
+      <StackLayout Padding="10" Spacing="5">
+        <Label Text="{Binding Restaurant.Name}"
+               TextColor="#3498db"
+               FontSize="22"
+               Style="{DynamicResource ListItemTextStyle}"/>
+        <Label Text="{Binding Restaurant.Address}"
+               Style="{DynamicResource ListItemDetailTextStyle}"/>
+        <Label Text="{Binding Restaurant.Phone}"
+               Style="{DynamicResource ListItemDetailTextStyle}"/>
+      </StackLayout>
+    </StackLayout>
+
+    <ContentView Padding="20" BackgroundColor="#3498db">
+      <StackLayout Orientation="Horizontal" VerticalOptions="LayoutOptions.Center" >
+          <Label Text="{Binding RestaurantDetail.Name}"
+                 TextColor="White"
+                 FontSize="28"
+                 Style="{DynamicResource ListItemTextStyle}"/>
+
+          <StackLayout Orientation="Horizontal" HorizontalOptions="LayoutOptions.End" VerticalOptions="LayoutOptions.Center" Padding="0,0,15,0">
+              <Label Text="Precio Menú:" FontSize="18"/>
+              <Label Text="{Binding DailyMenuList.Price}" FontSize="18"/>
+              <Label Text="Medio Menú:" FontSize="18"/>
+              <Label Text="{Binding DailyMenuList.HalfPrice}" FontSize="18"/>
+          </StackLayout>
+      </StackLayout>
+    </ContentView>
+
+    <ActivityIndicator IsVisible="{Binding IsBusy}" IsRunning="{Binding IsBusy}"/>
+
+    <!-- Lista de Primeros, Segundos, Postres, etc. -->
+    <ListView 
+              ItemsSource="{Binding MenuDetailList}"
+              ItemTemplate="{StaticResource isHeaderDataTemplateSelector}" 
+              SeparatorVisibility="Default"
+              SeparatorColor="#3498db"
+              HasUnevenRows="True"
+              CachingStrategy="RecycleElement"
+              ItemSelected="OnSelection"
+              RowHeight="110"
+              x:Name="ListViewMenuDetail">
+      <ListView.SeparatorColor>
+        <OnPlatform x:TypeArguments="Color" iOS="Transparent"/>
+      </ListView.SeparatorColor>    
+    </ListView>
+
+   
+  </StackLayout>
+  
+</ContentPage>

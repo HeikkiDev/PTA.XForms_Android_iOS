@@ -1,0 +1,2 @@
+C:\Users\Enrique\documents\visual studio 2015\Projects\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms.UWP\PTA_Restaurants.XForms.UWP.csproj;x86
+C:\Users\Enrique\documents\visual studio 2015\Projects\PTA-Restaurants.XForms\PTA-Restaurants.XForms\PTA_Restaurants.XForms\PTA_Restaurants.XForms.csproj;neutral

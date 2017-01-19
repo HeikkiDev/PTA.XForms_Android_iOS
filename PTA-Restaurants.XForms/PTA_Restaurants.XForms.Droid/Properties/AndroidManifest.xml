@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="PTA_Restaurants.XForms.Droid">
+	<uses-sdk android:minSdkVersion="15" android:targetSdkVersion="19" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<application android:label="PTA_Restaurants.XForms.Droid"></application>
+</manifest>
